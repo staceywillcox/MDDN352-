@@ -1,0 +1,89 @@
+html {
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px;
+    color: rgb(70,70,85);
+    overflow-x: hidden;
+    
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgba(167, 51, 42, 1);
+   
+    transition: 0.4s;
+}
+
+h3 {text-align: center;
+    margin: 0;
+    padding-top: 40px;
+
+}
+
+#one {
+    background-color: rgba(167, 51, 42, 0.9);
+    width:90%;
+    height: 100px;
+    margin-top:100px;
+}
+
+#two {
+    background-color: rgba(167, 51, 42, 0.8);
+    width:80%;
+    height: 100px; 
+}
+
+#three {
+    background-color: rgba(167, 51, 42, 0.7);
+    width:70%;
+    height: 100px; 
+}
+
+#four {
+    background-color: rgba(167, 51, 42, 0.6);
+    width:60%;
+    height: 100px; 
+}
+
+#five {
+    background-color: rgba(167, 51, 42, 0.5);
+    width:50%;
+    height: 100px; 
+}
+
+.body-section {
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8rem;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        background-color: rgba(167,51,47,0.6);
+
+    }
+
+    header h3 {
+        line-height: 0.5rem;
+        color: rgba(50,50,50,0.75);
+    }
+
+}
+
+
